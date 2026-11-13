@@ -1,0 +1,50 @@
+name: Bug report / Relato de erro
+description: Something did not work as expected / Algo não funcionou como esperado
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing Qilo! / Obrigado por testar o Qilo!
+        Write in English or Portuguese. / Escreva em inglês ou português.
+  - type: input
+    id: version
+    attributes:
+      label: Qilo version / Versão do Qilo
+      description: ☰ › About / Sobre
+      placeholder: "0.5.3"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version / Celular e versão do Android
+      placeholder: "Samsung Galaxy S23, Android 15"
+    validations:
+      required: true
+  - type: dropdown
+    id: scale
+    attributes:
+      label: Scale / Balança
+      options:
+        - QardioBase 2 (B200)
+        - QardioBase (original)
+        - QardioBase X
+        - Other / Outra
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / O que aconteceu?
+      description: Steps, what you expected and what you saw. / Passos, o que você esperava e o que viu.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log / Registro
+      description: |
+        ☰ › Log (testing) › Copy log, then paste here. Wi-Fi passwords are never logged.
+        ☰ › Registro (testes) › Copiar registro, depois cole aqui. Senhas de Wi-Fi nunca entram no registro.
+      render: text

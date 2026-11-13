@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User manual (English)
+    url: https://github.com/mattaneto/qilo/blob/main/docs/manual-en.md
+    about: Setup, profiles, goals, reminders and FAQ.
+  - name: Manual do usuário (português)
+    url: https://github.com/mattaneto/qilo/blob/main/docs/manual-pt-BR.md
+    about: Configuração, perfis, metas, lembretes e dúvidas frequentes.

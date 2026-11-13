@@ -1,0 +1,20 @@
+name: Suggestion / Sugestão
+description: An idea or improvement for Qilo / Uma ideia ou melhoria para o Qilo
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Qilo stays free, without ads, accounts or cloud. / O Qilo continua gratuito, sem anúncios, contas ou nuvem.
+        Write in English or Portuguese. / Escreva em inglês ou português.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Sua ideia
+      description: What would you like and why? / O que você gostaria e por quê?
+    validations:
+      required: true
+  - type: input
+    id: scale
+    attributes:
+      label: Scale model (optional) / Modelo da balança (opcional)
