@@ -1,6 +1,6 @@
 # Qilo user manual
 
-App version: **0.5.3** · [Português](manual-pt-BR.md)
+App version: **0.6.0** · [Português](manual-pt-BR.md)
 
 > **Wellness notice.** Qilo only records the values sent by the scale. It is not a medical device and does not diagnose, treat, cure, or prevent any medical condition. For any health question, consult a healthcare professional.
 
@@ -27,6 +27,7 @@ A reconnection without changes writes nothing to the scale. The app only writes 
   - With less than 7 days of history, the face stays neutral.
 - **Goal**: the button opens the goal screen of the selected profile.
 - **BMI** colored by band (underweight, normal, overweight, obese), with the bar and marker.
+- **View details**: opens the full details of the latest weighing (the same sheet as in the History list).
 - **Add note »**: see section 6.
 - With more than one profile, the name buttons at the top switch the profile shown.
 
@@ -99,6 +100,7 @@ Menu ☰ › **Settings**:
 - **Lock with biometrics**: asks for fingerprint, face or the phone's screen lock when opening the app and after 30 seconds in the background.
 - **Health Connect**: choose **one** profile (the phone owner). Each new weighing of theirs (from the scale or typed in) is sent to Health Connect **automatically** as soon as it is saved, where Google Fit, Samsung Health and other apps can read it. **Send history** is only needed once, for older weighings; sending again does not duplicate.
 - **Export data (CSV)**: one profile or all, in the standard format or the Excel pt-BR format.
+- **Import CSV**: restores weighings from a CSV exported by Qilo (either format). Pick the file, check which profile each name in the file goes to (or choose **Don't import**) and read the summary: how many are new, how many are already in the app (those are skipped, so importing the same file twice duplicates nothing) and which lines had problems. Imported weighings are not sent to Health Connect automatically; use **Send history** if you want them there.
 
 
 ## 11. Side menu
@@ -116,4 +118,4 @@ At the bottom of the ☰ menu:
 - **No body fat/muscle**: the profile is in "Weight only" or "Pregnancy" mode, or you weighed with socks or shoes.
 - **Why no visceral fat, metabolic age or protein?** Those depend on closed vendor formulas with no published study. Qilo only shows what the scale sends, simple arithmetic on those values and published equations.
 - **The weighing has no body fat/muscle**: the scale did not measure impedance (socks, dry feet or feet off the metal plates). Weigh again barefoot, feet on the plates.
-- **Where is my data?** Only on the phone. Uninstalling erases it; export a CSV first.
+- **Where is my data?** Only on the phone. Uninstalling erases it; export a CSV first and use **Import CSV** to restore it later.

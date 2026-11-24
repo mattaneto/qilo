@@ -4,7 +4,7 @@
 
 **A free app for QardioBase smart scales — no ads, no account, no cloud.**
 
-> 🧪 **Beta — final testing (0.5.3).** Everything works on the developer's scale; we are now testing on more phones and scales. Bug reports and suggestions are very welcome — see [Help test Qilo](#help-test-qilo).
+> 🧪 **Beta — final testing (0.6.0).** Everything works on the developer's scale; we are now testing on more phones and scales. Bug reports and suggestions are very welcome — see [Help test Qilo](#help-test-qilo).
 
 [Português](README.pt-BR.md) · [User manual](docs/manual-en.md) · [Privacy policy](PRIVACY.md)
 
@@ -31,7 +31,7 @@ The official Qardio app stopped working, and with it many QardioBase scales beca
 - **Reminders**: daily, weekly, every two weeks, monthly or every N days.
 - **Health Connect**: sends weight and body fat so Google Fit, Samsung Health and other apps can read them.
 - **App lock** with fingerprint, face or the phone's screen lock.
-- **CSV export**, including an Excel-friendly format for Portuguese.
+- **CSV export and import** (backup and restore), including an Excel-friendly format for Portuguese.
 - **Scale tools**: link profiles that were already on the scale, turn Wi-Fi off, factory reset.
 - Light and dark themes · English and Portuguese (Brazil).
 

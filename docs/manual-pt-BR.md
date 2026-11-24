@@ -1,6 +1,6 @@
 # Manual do Qilo
 
-Versão do app: **0.5.3** · [English](manual-en.md)
+Versão do app: **0.6.0** · [English](manual-en.md)
 
 > **Aviso de bem-estar.** O Qilo apenas registra os valores enviados pela balança. Não é um dispositivo médico e não diagnostica, trata, cura nem previne nenhuma condição. Para qualquer questão de saúde, procure um profissional de saúde.
 
@@ -27,6 +27,7 @@ Uma reconexão sem mudanças não grava nada na balança. O app só escreve nela
   - Com menos de 7 dias de histórico, a carinha fica neutra.
 - **Meta**: o botão abre a tela de meta do perfil selecionado.
 - **IMC** colorido pela faixa (abaixo do peso, normal, sobrepeso, obesidade), com a barra e o marcador.
+- **Ver detalhes**: abre o detalhe completo da última pesagem (a mesma janela da lista do Histórico).
 - **Adicionar nota »**: veja a seção 6.
 - Com mais de um perfil, os botões com os nomes no topo trocam o perfil exibido.
 
@@ -99,6 +100,7 @@ Menu ☰ › **Configurações**:
 - **Bloquear com biometria**: pede digital, rosto ou o bloqueio de tela do celular ao abrir o app e depois de 30 segundos em segundo plano.
 - **Health Connect**: escolha **um** perfil (o dono do celular). Cada nova pesagem dele (da balança ou digitada) é enviada **automaticamente** ao Health Connect assim que é salva, onde Google Fit, Samsung Health e outros apps podem ler. **Enviar histórico** só é necessário uma vez, para mandar as pesagens antigas; reenviar não duplica.
 - **Exportar dados (CSV)**: um perfil ou todos, no formato padrão ou no formato do Excel em português.
+- **Importar CSV**: restaura pesagens de um CSV exportado pelo Qilo (qualquer um dos dois formatos). Escolha o arquivo, confira para qual perfil vai cada nome do arquivo (ou marque **Não importar**) e veja o resumo: quantas são novas, quantas já estão no app (essas são ignoradas, então importar o mesmo arquivo duas vezes não duplica nada) e quais linhas tinham problema. As pesagens importadas não são enviadas ao Health Connect automaticamente; use **Enviar histórico** se quiser.
 
 
 ## 11. Menu lateral
@@ -116,4 +118,4 @@ No rodapé do menu ☰:
 - **Sem gordura/músculo**: o perfil está em "Só peso" ou "Gestante", ou a pesagem foi de meias/sapatos.
 - **Por que não aparecem gordura visceral, idade metabólica ou proteína?** Essas medidas dependem de fórmulas fechadas dos fabricantes, sem estudo publicado. O Qilo só mostra o que a balança envia, contas simples sobre esses valores e equações publicadas.
 - **A pesagem veio sem gordura/músculo**: a balança não mediu a impedância (pés com meia, secos ou fora das placas metálicas). Pese de novo descalço, com os pés sobre as placas.
-- **Onde ficam meus dados?** Só no celular. Desinstalar o app apaga tudo; exporte um CSV antes.
+- **Onde ficam meus dados?** Só no celular. Desinstalar o app apaga tudo; exporte um CSV antes e use **Importar CSV** para restaurar depois.

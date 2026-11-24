@@ -4,7 +4,7 @@
 
 **Um app gratuito para balanças QardioBase — sem anúncios, sem conta, sem nuvem.**
 
-> 🧪 **Beta — testes finais (0.5.3).** Tudo funciona na balança do desenvolvedor; agora estamos testando em mais celulares e balanças. Relatos de erro e sugestões são muito bem-vindos — veja [Ajude a testar](#ajude-a-testar).
+> 🧪 **Beta — testes finais (0.6.0).** Tudo funciona na balança do desenvolvedor; agora estamos testando em mais celulares e balanças. Relatos de erro e sugestões são muito bem-vindos — veja [Ajude a testar](#ajude-a-testar).
 
 [English](README.md) · [Manual do usuário](docs/manual-pt-BR.md) · [Política de privacidade](PRIVACY.md#português)
 
@@ -31,7 +31,7 @@ O app oficial da Qardio deixou de funcionar e, com ele, muitas balanças QardioB
 - **Lembretes**: diário, semanal, quinzenal, mensal ou a cada N dias.
 - **Health Connect**: envia peso e gordura para que Google Fit, Samsung Health e outros apps possam ler.
 - **Bloqueio do app** com digital, rosto ou o bloqueio de tela do celular.
-- **Exportação CSV**, inclusive no formato do Excel em português.
+- **Exportação e importação CSV** (backup e restauração), inclusive no formato do Excel em português.
 - **Ferramentas da balança**: vincular perfis que já estavam nela, desligar o Wi-Fi, restaurar padrões de fábrica.
 - Tema claro e escuro · Português (Brasil) e inglês.
 
