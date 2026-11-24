@@ -61,6 +61,10 @@ Other Qardio scales (QardioBase original, QardioBase X) are not supported yet. I
 
 **Looking for an iOS partner.** Qilo is built with Flutter, so an iPhone version is mostly platform work (Bluetooth permission, Apple Health, notifications). If you have a Mac, an Apple Developer account and would like to bring Qilo to iOS, please [get in touch](https://github.com/mattaneto/qilo/issues/new?template=suggestion.yml).
 
+## Related projects
+
+- **[LibreArm](https://github.com/ptylr/LibreArm)** — open-source iOS app for the **QardioArm** blood pressure monitor, by Paul Taylor.
+
 ## Support the project
 
 Qilo is free and will stay free. If it brought your scale back to life, you can support its development through **GitHub Sponsors** (the ❤ Sponsor button on this page).

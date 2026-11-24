@@ -61,6 +61,10 @@ Outras balanças Qardio (QardioBase original, QardioBase X) ainda não são supo
 
 **Procura-se parceiro para iOS.** O Qilo é feito em Flutter, então uma versão para iPhone é principalmente trabalho de plataforma (permissão de Bluetooth, Apple Saúde, notificações). Se você tem Mac e conta de desenvolvedor Apple e quer levar o Qilo para o iOS, [entre em contato](https://github.com/mattaneto/qilo/issues/new?template=suggestion.yml).
 
+## Projetos relacionados
+
+- **[LibreArm](https://github.com/ptylr/LibreArm)** — app iOS de código aberto para o medidor de pressão **QardioArm**, de Paul Taylor.
+
 ## Apoie o projeto
 
 O Qilo é e vai continuar gratuito. Se ele trouxe sua balança de volta, você pode apoiar o desenvolvimento pelo **GitHub Sponsors** (o botão ❤ Sponsor nesta página).
