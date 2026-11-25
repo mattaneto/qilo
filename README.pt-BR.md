@@ -59,7 +59,7 @@ Se você tem uma QardioBase 2, pode ajudar a fechar o beta:
 
 Outras balanças Qardio (QardioBase original, QardioBase X) ainda não são suportadas. Se você tem uma e pode ajudar a testar, conte numa issue.
 
-**Procura-se parceiro para iOS.** O Qilo é feito em Flutter, então uma versão para iPhone é principalmente trabalho de plataforma (permissão de Bluetooth, Apple Saúde, notificações). Se você tem Mac e conta de desenvolvedor Apple e quer levar o Qilo para o iOS, [entre em contato](https://github.com/mattaneto/qilo/issues/new?template=suggestion.yml).
+**Procura-se parceiro para iOS.** O Qilo é feito em Flutter, então uma versão para iPhone é principalmente trabalho de plataforma (permissão de Bluetooth, Apple Saúde, notificações). Se você tem Mac e conta de desenvolvedor Apple e quer levar o Qilo para o iOS, veja a [issue #1](https://github.com/mattaneto/qilo/issues/1).
 
 ## Projetos relacionados
 

@@ -59,7 +59,7 @@ If you have a QardioBase 2, you can help finish the beta:
 
 Other Qardio scales (QardioBase original, QardioBase X) are not supported yet. If you own one and can help test, say so in an issue.
 
-**Looking for an iOS partner.** Qilo is built with Flutter, so an iPhone version is mostly platform work (Bluetooth permission, Apple Health, notifications). If you have a Mac, an Apple Developer account and would like to bring Qilo to iOS, please [get in touch](https://github.com/mattaneto/qilo/issues/new?template=suggestion.yml).
+**Looking for an iOS partner.** Qilo is built with Flutter, so an iPhone version is mostly platform work (Bluetooth permission, Apple Health, notifications). If you have a Mac, an Apple Developer account and would like to bring Qilo to iOS, please see [issue #1](https://github.com/mattaneto/qilo/issues/1).
 
 ## Related projects
 
